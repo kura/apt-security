@@ -1,0 +1,2 @@
+#!/bin/sh
+apt-get upgrade -o Dir::Etc::SourceList=/etc/apt/security.sources.list

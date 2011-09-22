@@ -1,0 +1,12 @@
+#!/bin/sh
+FILES="apt-get-security
+apt-security-sources"
+
+for FILE in $FILES
+do
+    mv $FILE /usr/bin/
+done
+
+echo "Installed, updating sources"
+
+/usr/bin/apt-security-sources

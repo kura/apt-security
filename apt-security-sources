@@ -1,0 +1,6 @@
+#!/bin/sh
+FILE=/etc/apt/security.sources.list
+grep "-security" /etc/apt/sources.list | grep -v "#" > $FILE
+echo "Updated " $FILE
+echo "------------"
+cat $FILE
