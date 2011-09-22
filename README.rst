@@ -23,3 +23,9 @@ Both commands require superuser privileges.
   /usr/bin/apt-security-sources		Refreshes the packages list from /etc/apt/sources.list
 
   /usr/bin/apt-get-security		Does an upgrade of packages from the security repos
+
+About
+-----
+
+About/support etc
+http://syslog.tv/apt-security
